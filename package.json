@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "My breathtaking Factor project",
+  "main": "src/index",
+  "private": true,
+  "factor": {
+    "load": [
+      {
+        "app": "index",
+        "server": "server"
+      }
+    ],
+    "app": {
+      "name": "demo",
+      "description": "My breathtaking Factor project",
+      "email": "maryamtb.17@gmail.com",
+      "url": ""
+    }
+  },
+  "dependencies": {
+    "@factor/core": "^1.0.0",
+    "@factor/plugin-contact-form": "^1.0.0",
+    "@factor/plugin-notify": "^1.0.0",
+    "@factor/plugin-seo": "^1.0.0",
+    "@factor/plugin-sitemap": "^1.0.0",
+    "@factor/plugin-storage-s3": "^1.0.0",
+    "@factor/theme-zeno": "^1.0.0"
+  }
+}
